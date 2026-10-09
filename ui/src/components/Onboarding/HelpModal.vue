@@ -74,9 +74,9 @@ const articles = defineModel<HelpArticle[]>("articles");
 
 const headingTitle = computed(() => {
 	if (!isOnboardingStepsCompleted.value && !showHelpCenter.value) {
-		return "Getting started";
+		return __('Getting started');
 	} else if (showHelpCenter.value) {
-		return "Help center";
+		return __('Help centre');
 	}
 });
 
@@ -84,7 +84,7 @@ const options = computed(() => {
 	let items = [
 		{
 			icon: StepsIcon,
-			label: "Reset onboarding steps",
+			label: __('Reset onboarding steps'),
 			onClick: resetOnboardingSteps,
 			condition: () => showHelpCenter.value && isOnboardingStepsCompleted.value,
 		},
@@ -97,7 +97,7 @@ const footerItems = computed(() => {
 	let items = [
 		{
 			icon: HelpIcon,
-			label: "Help centre",
+			label: __('Help centre'),
 			onClick: () => {
 				syncStatus();
 				showHelpCenter.value = true;
@@ -106,7 +106,7 @@ const footerItems = computed(() => {
 		},
 		{
 			icon: StepsIcon,
-			label: "Getting started",
+			label: __('Getting started'),
 			onClick: () => (showHelpCenter.value = false),
 			condition: showHelpCenter.value && !isOnboardingStepsCompleted.value,
 		},

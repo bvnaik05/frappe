@@ -2158,6 +2158,10 @@ msgstr ""
 msgid "All apps"
 msgstr ""
 
+#: ui/src/components/Onboarding/HelpCenter.vue:16
+msgid "All articles"
+msgstr ""
+
 #: frappe/public/js/print_format_builder/components/inspector/TableFieldInspector.vue:76
 msgid "All available columns added."
 msgstr ""
@@ -2177,6 +2181,10 @@ msgstr ""
 
 #: frappe/desk/page/setup_wizard/setup_wizard.js:370
 msgid "All set! Opening your workspace"
+msgstr ""
+
+#: ui/src/components/Onboarding/GettingStartedBanner.vue:36
+msgid "All steps are completed successfully"
 msgstr ""
 
 #: frappe/utils/password_strength.py:183
@@ -15760,6 +15768,11 @@ msgstr ""
 msgid "Help HTML"
 msgstr ""
 
+#: ui/src/components/Onboarding/HelpModal.vue:79
+#: ui/src/components/Onboarding/HelpModal.vue:100
+msgid "Help centre"
+msgstr ""
+
 #. Description of the 'Content' (Text Editor) field in DocType 'Note'
 #: frappe/desk/doctype/note/note.json
 msgid "Help: To link to another record in the system, use \"/desk/note/[Note Name]\" as the Link URL. (don't use \"http://\")"
@@ -24307,6 +24320,10 @@ msgstr ""
 msgid "Open console"
 msgstr ""
 
+#: ui/src/components/Onboarding/HelpCenter.vue:19
+msgid "Open docs"
+msgstr ""
+
 #: frappe/public/js/frappe/form/sidebar/attachments.js:315
 msgid "Open file"
 msgstr ""
@@ -29038,6 +29055,10 @@ msgstr ""
 msgid "Reset node"
 msgstr ""
 
+#: ui/src/components/Onboarding/HelpModal.vue:87
+msgid "Reset onboarding steps"
+msgstr ""
+
 #: frappe/templates/emails/password_reset.html:5
 msgid "Reset password"
 msgstr ""
@@ -30559,6 +30580,10 @@ msgstr ""
 
 #: frappe/public/js/frappe/file_uploader/FileBrowser.vue:132
 msgid "Search Results"
+msgstr ""
+
+#: ui/src/components/Onboarding/HelpCenter.vue:6
+msgid "Search articles..."
 msgstr ""
 
 #: frappe/public/js/frappe/file_uploader/FileBrowser.vue:13
@@ -32852,6 +32877,10 @@ msgstr ""
 msgid "Skip Row"
 msgstr ""
 
+#: ui/src/components/Onboarding/OnboardingSteps.vue:28
+msgid "Skip all"
+msgstr ""
+
 #: frappe/core/doctype/data_import/data_import.js:218
 msgid "Skip every row that has one of these values. Skipped rows are not imported."
 msgstr ""
@@ -33511,6 +33540,10 @@ msgstr ""
 
 #: frappe/public/js/print_format_builder/components/editor/PrintFormatSetup.vue:40
 msgid "Start from default"
+msgstr ""
+
+#: ui/src/components/Onboarding/GettingStartedBanner.vue:41
+msgid "Start now"
 msgstr ""
 
 #: frappe/core/doctype/data_import/data_import.js:1288
@@ -40373,6 +40406,10 @@ msgstr ""
 msgid "You are about to open an external link. To confirm, click the link again."
 msgstr ""
 
+#: ui/src/components/Onboarding/GettingStartedBanner.vue:22
+msgid "You are all set"
+msgstr ""
+
 #: frappe/public/js/frappe/dom.js:452
 msgid "You are connected to internet."
 msgstr ""
@@ -40920,6 +40957,10 @@ msgstr ""
 
 #: frappe/desk/doctype/workspace/workspace.py:251
 msgid "You need to be {0} to rename this document"
+msgstr ""
+
+#: ui/src/components/Onboarding/OnboardingSteps.vue:100
+msgid "You need to complete \"{0}\" first."
 msgstr ""
 
 #: frappe/public/js/frappe/widgets/links_widget.js:68
@@ -43338,6 +43379,11 @@ msgstr ""
 msgid "{0} {1}: Submitted Record cannot be deleted. You must {2} Cancel {3} it first."
 msgstr ""
 
+#: ui/src/components/Onboarding/OnboardingSteps.vue:14
+#, python-format
+msgid "{0}% completed"
+msgstr ""
+
 #: frappe/desk/doctype/dock/dock.py:184
 msgid "{0}'s dock belongs to its app and can only be authored in developer mode. Arrange the dock instead to change it for this site."
 msgstr ""
@@ -43369,6 +43415,14 @@ msgstr ""
 
 #: frappe/utils/print_format.py:316 frappe/utils/print_format.py:355
 msgid "{0}/{1} complete | Please leave this tab open until completion."
+msgstr ""
+
+#: ui/src/components/Onboarding/GettingStartedBanner.vue:13
+msgid "{0}/{1} steps"
+msgstr ""
+
+#: ui/src/components/Onboarding/OnboardingSteps.vue:8
+msgid "{0}/{1} steps completed"
 msgstr ""
 
 #: frappe/model/base_document.py:1356
@@ -43574,4 +43628,3 @@ msgstr ""
 #: frappe/public/js/frappe/file_uploader/WebLink.vue:4
 msgid "← Back to upload files"
 msgstr ""
-
